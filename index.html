@@ -267,8 +267,8 @@
         </header>
 
         <main class="row">
-            <div class="row text-center">
-                <div class="col-4">
+            <div class="row">
+                <div class="col-4 text-center">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
                             <h4 class="my-0 fw-normal">Товар 1</h4>
@@ -281,9 +281,29 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary btn-success">Купить</button>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary btn-success">Купить
+                            </button>
                         </div>
                     </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputName" class="form-label">Имя</label>
+                                    <input type="text" class="form-control" id="exName">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                           aria-describedby="emailHelp">
+                                </div>
+                                <button type="button" class="btn btn-primary">Отправить</button>
+                            </form>
+                        </div>
+                      </div>                 
                 </div>
             </div>
         </main>
